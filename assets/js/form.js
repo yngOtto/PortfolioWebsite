@@ -1,6 +1,6 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
   // Get all input elements
-  var inputs = this.getElementsByTagName('input');
+  var inputs = this.getElementsByTagName('email');
   var textarea = this.getElementsByTagName('message');
 
   // Loop through inputs
