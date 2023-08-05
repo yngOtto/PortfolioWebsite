@@ -1,7 +1,10 @@
-document.getElementById('contactForm').addEventListener('submit', function(event) {
+document.querySelector('.submit').addEventListener('click', function(event) {
+  // Get the form element
+  var form = document.getElementById('contactForm');
+
   // Get all input elements
-  var inputs = this.getElementsByTagName('email');
-  var textarea = this.getElementsByTagName('message');
+  var inputs = form.getElementsByTagName('input');
+  var textarea = form.getElementsByTagName('textarea');
 
   // Loop through inputs
   for (var i = 0; i < inputs.length; i++) {
@@ -22,3 +25,4 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     return;
   }
 });
+
