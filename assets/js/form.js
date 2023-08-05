@@ -1,5 +1,8 @@
 document.querySelector('.submit').addEventListener('click', function(event) {
-  // Get the form element
+    // Prevent the link from doing anything
+  event.preventDefault();
+  
+    // Get the form element
   var form = document.getElementById('contactForm');
 
   // Get all input elements
