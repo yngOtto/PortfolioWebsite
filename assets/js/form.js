@@ -1,8 +1,8 @@
 document.querySelector('.submit').addEventListener('click', function(event) {
-    // Prevent the link from doing anything
+  // Prevent the link from doing anything by default
   event.preventDefault();
-  
-    // Get the form element
+
+  // Get the form element
   var form = document.getElementById('contactForm');
 
   // Get all input elements
@@ -13,8 +13,6 @@ document.querySelector('.submit').addEventListener('click', function(event) {
   for (var i = 0; i < inputs.length; i++) {
     // If an input is empty
     if (inputs[i].value === '') {
-      // Prevent form submission
-      event.preventDefault();
       alert('Please fill out all fields before submitting.');
       return;
     }
@@ -22,13 +20,11 @@ document.querySelector('.submit').addEventListener('click', function(event) {
 
   // Check if textarea is empty
   if (textarea[0].value === '') {
-    // Prevent form submission
-    event.preventDefault();
     alert('Please fill out all fields before submitting.');
     return;
   }
 
+  // If all fields are filled out, submit the form
   form.submit();
-  window.location.href = "success.html";
 });
 
