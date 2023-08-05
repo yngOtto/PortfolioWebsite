@@ -27,5 +27,8 @@ document.querySelector('.submit').addEventListener('click', function(event) {
     alert('Please fill out all fields before submitting.');
     return;
   }
+
+  form.submit();
+  window.location.href = "success.html";
 });
 
