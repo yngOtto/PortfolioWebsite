@@ -1,5 +1,5 @@
 document.querySelector('.submit').addEventListener('click', function(event) {
-  // Prevent the link from doing anything by default
+  // Prevent the link from doing anything
   event.preventDefault();
 
   // Get the form element
