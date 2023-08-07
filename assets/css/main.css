@@ -72,7 +72,7 @@ input, select, textarea {
 }
 
 h1 {
-	background: linear-gradient(135deg, #1abc9c, #16a085);
+	background: linear-gradient(to right, #5e42a6, #b74e91);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
