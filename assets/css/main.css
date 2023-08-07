@@ -72,10 +72,20 @@ input, select, textarea {
 }
 
 h1 {
-	background: linear-gradient(to right, #5e42a6, #9b59b6, #b74e91);
+	background-size: 200% auto;
+	color: #fff;
+	background-image: linear-gradient(to right, #5e42a6 0%, #b74e91 51%, #5e42a6 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation: Gradient 3s ease infinite;
   }
+  
+  @keyframes Gradient {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+  }
+  
   
 
 /* Basic */
