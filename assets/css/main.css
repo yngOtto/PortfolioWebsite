@@ -3273,11 +3273,11 @@ h1 {
 		}
 
 		.wrapper.style3 {
-			background-color: #7e0303;
+			background-color: #5e42a6;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #941c1c;
+			background-color: #5e42a6;
 		}
 
 		.wrapper.fullscreen {
@@ -3387,7 +3387,7 @@ h1 {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #8b0b0b;
+		background-color: #5e42a6;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3794,7 +3794,7 @@ h1 {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(245, 6, 6, 0.55);
+				color: #5e42a6;
 			}
 
 			#sidebar nav a.active {
