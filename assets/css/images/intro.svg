@@ -1,13 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
-
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#5e42a6">
+                <animate attributeName="offset" values="0%;100%;0%" dur="5s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="51%" style="stop-color:#b74e91">
+                <animate attributeName="offset" values="-51%;49%;-51%" dur="5s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" style="stop-color:#5e42a6">
+                <animate attributeName="offset" values="-100%;0%;-100%" dur="5s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+    </defs>
     <style type="text/css"><![CDATA[
-		line
-		{
-			stroke: rgba(255,255,255,0.05);
-			stroke-width: 1px;
-		}
+        line
+        {
+            stroke: url(#gradient);
+            stroke-width: 1px;
+        }
     ]]></style>
-
 	<line x1="1100" y1="500" x2="-1000" y2="250" />
 	<line x1="1100" y1="500" x2="-1000" y2="-100" />
 	<line x1="1100" y1="500" x2="-1000" y2="-500" />
@@ -20,5 +31,4 @@
 	<line x1="1150" y1="0" x2="150" y2="500" />
 	<line x1="700" y1="0" x2="-300" y2="500" />
 	<line x1="150" y1="0" x2="-850" y2="500" />
-
 </svg>
