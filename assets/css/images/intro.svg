@@ -8,15 +8,16 @@
         </linearGradient>
     </defs>
     <style type="text/css"><![CDATA[
-        line
+        path
         {
             stroke: url(#gradient);
             stroke-width: 1px;
+            fill: none;
         }
     ]]></style>
-	<line x1="1750" y1="0" x2="750" y2="500" />
-	<line x1="1500" y1="0" x2="500" y2="500" />
-	<line x1="1150" y1="0" x2="150" y2="500" />
-	<line x1="700" y1="0" x2="-300" y2="500" />
-	<line x1="150" y1="0" x2="-850" y2="500" />
+    <path d="M 1750 0 C 1625 125, 875 375, 750 500" />
+    <path d="M 1500 0 C 1375 125, 625 375, 500 500" />
+    <path d="M 1150 0 C 1025 125, 275 375, 150 500" />
+    <path d="M 700 0 C 575 125, -175 375, -300 500" />
+    <path d="M 150 0 C 25 125, -725 375, -850 500" />
 </svg>
