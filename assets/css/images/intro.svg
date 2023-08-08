@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
     <defs>
         <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#5e42a6" />
-            <stop offset="51%" style="stop-color:#b74e91" />
-            <stop offset="100%" style="stop-color:#5e42a6" />
+            <stop offset="0%" style="stop-color:#5e42a6; stop-opacity:0.6" />
+            <stop offset="51%" style="stop-color:#b74e91; stop-opacity:0.6" />
+            <stop offset="100%" style="stop-color:#5e42a6; stop-opacity:0.6" />
             <animate attributeName="gradientTransform" type="translate" from="0" to="1" begin="0s" dur="5s" repeatCount="indefinite" />
         </linearGradient>
     </defs>
