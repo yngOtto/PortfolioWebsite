@@ -15,18 +15,18 @@
             stroke: url(#gradient);
             stroke-width: 1px;
             fill: none;
-            stroke-dasharray: 1000;
-            stroke-dashoffset: 1000;
-            animation: draw 10s alternate infinite; /* Adjusted the duration to 10s to account for the back and forth animation */
-            
+            stroke-dasharray: 20 10; /* Adjust this to change the gap and dash length */
+            stroke-dashoffset: 1100; /* Start off the screen */
+            animation: draw 10s alternate infinite;
+            filter: url(#blurMe);
         }
 
         @keyframes draw {
             0%, 100% {
-                stroke-dashoffset: 1000;
+                stroke-dashoffset: 1100;
             }
             50% {
-                stroke-dashoffset: 0;
+                stroke-dashoffset: -100;
             }
         }
     ]]></style>
