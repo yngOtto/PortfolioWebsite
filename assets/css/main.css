@@ -3949,7 +3949,7 @@ h1 {
 	white-space: nowrap; /* Keeps the content on a single line */
 	animation: 
 	  typing 3.5s steps(40, end) forwards, /* The forwards value ensures the animation's end state remains */
-	  blink-caret .75s step-end infinite;
+	  blink-caret .50s step-end infinite;
   }
   
 		  
