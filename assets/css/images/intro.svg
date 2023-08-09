@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
     <defs>
         <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#5e42a6; stop-opacity:0.7"/>
-            <stop offset="51%" style="stop-color:#b74e91; stop-opacity:0.7"/>
-            <stop offset="100%" style="stop-color:#5e42a6; stop-opacity:0.7"/>
+            <stop offset="0%" style="stop-color:#5e42a6; stop-opacity:0.3"/>
+            <stop offset="51%" style="stop-color:#b74e91; stop-opacity:0.3"/>
+            <stop offset="100%" style="stop-color:#5e42a6; stop-opacity:0.3"/>
             <animate attributeName="gradientTransform" type="translate" from="0" to="1" begin="0s" dur="5s" repeatCount="indefinite" />
         </linearGradient>
         <filter id="blurMe">
@@ -17,15 +17,15 @@
             fill: none;
             stroke-dasharray: 1000;
             stroke-dashoffset: 1000;
-            animation: draw 3s forwards infinite;
-            
+            animation: draw 10s alternate infinite; /* Adjusted the duration to 10s to account for the back and forth animation */
+            filter: url(#blurMe);
         }
 
         @keyframes draw {
-            0% {
+            0%, 100% {
                 stroke-dashoffset: 1000;
             }
-            100% {
+            50% {
                 stroke-dashoffset: 0;
             }
         }
