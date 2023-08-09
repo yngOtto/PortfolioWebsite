@@ -4,7 +4,6 @@
             <stop offset="0%" style="stop-color:#5e42a6; stop-opacity:0.3"/>
             <stop offset="51%" style="stop-color:#b74e91; stop-opacity:0.3"/>
             <stop offset="100%" style="stop-color:#5e42a6; stop-opacity:0.3"/>
-            <animate attributeName="gradientTransform" type="translate" from="0" to="1" begin="0s" dur="5s" repeatCount="indefinite" />
         </linearGradient>
         <filter id="blurMe">
             <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
@@ -22,19 +21,19 @@
 
         @keyframes raindrop {
             0% {
-                transform: translateY(-500px);
+                transform: translateY(-100px);
             }
             100% {
-                transform: translateY(1000px);
+                transform: translateY(600px);
             }
         }
     ]]></style>
-    <path class="path" d="M 2050 -100 V 600" />
-    <path class="path" d="M 2000 -100 V 600" />
-    <path class="path" d="M 1750 -100 V 600" />
-    <path class="path" d="M 1500 -100 V 600" />
-    <path class="path" d="M 1150 -100 V 600" />
-    <path class="path" d="M 700 -100 V 600" />
-    <path class="path" d="M 150 -100 V 600" />
-    <path class="path" d="M 50 -100 V 600" />
+    <path class="path" d="M 205 0 V 500" />
+    <path class="path" d="M 200 0 V 500" />
+    <path class="path" d="M 175 0 V 500" />
+    <path class="path" d="M 150 0 V 500" />
+    <path class="path" d="M 115 0 V 500" />
+    <path class="path" d="M 70 0 V 500" />
+    <path class="path" d="M 15 0 V 500" />
+    <path class="path" d="M 5 0 V 500" />
 </svg>
