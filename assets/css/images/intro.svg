@@ -16,26 +16,25 @@
             stroke-width: 1px;
             fill: none;
             stroke-dasharray: 20 10; 
-            stroke-dashoffset: -600; 
             animation: raindrop 15s linear infinite; 
             filter: url(#blurMe);
         }
 
         @keyframes raindrop {
             0% {
-                transform: translateY(-600px);
+                transform: translateY(-500px);
             }
             100% {
-                transform: translateY(600px);
+                transform: translateY(1000px);
             }
         }
     ]]></style>
-    <path class="path" d="M 2050 0 V 500" />
-    <path class="path" d="M 2000 0 V 500" />
-    <path class="path" d="M 1750 0 V 500" />
-    <path class="path" d="M 1500 0 V 500" />
-    <path class="path" d="M 1150 0 V 500" />
-    <path class="path" d="M 700 0 V 500" />
-    <path class="path" d="M 150 0 V 500" />
-    <path class="path" d="M 50 0 V 500" />
+    <path class="path" d="M 2050 -100 V 600" />
+    <path class="path" d="M 2000 -100 V 600" />
+    <path class="path" d="M 1750 -100 V 600" />
+    <path class="path" d="M 1500 -100 V 600" />
+    <path class="path" d="M 1150 -100 V 600" />
+    <path class="path" d="M 700 -100 V 600" />
+    <path class="path" d="M 150 -100 V 600" />
+    <path class="path" d="M 50 -100 V 600" />
 </svg>
