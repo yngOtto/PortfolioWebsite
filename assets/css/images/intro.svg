@@ -18,7 +18,7 @@
             stroke-dasharray: 1000;
             stroke-dashoffset: 1000;
             animation: draw 10s alternate infinite; /* Adjusted the duration to 10s to account for the back and forth animation */
-            filter: url(#blurMe);
+            
         }
 
         @keyframes draw {
