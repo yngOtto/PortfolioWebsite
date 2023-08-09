@@ -6,29 +6,12 @@
             <stop offset="100%" style="stop-color:#5e42a6; stop-opacity:0.3"/>
         </linearGradient>
     </defs>
-    <style type="text/css"><![CDATA[
-        .path {
-            stroke: url(#gradient);
-            stroke-width: 1px;
-            fill: none;
-            animation: raindrop 15s linear infinite; 
-        }
-
-        @keyframes raindrop {
-            0% {
-                transform: translateY(0px);
-            }
-            100% {
-                transform: translateY(500px);
-            }
-        }
-    ]]></style>
-    <path class="path" d="M 205 0 V 500" />
-    <path class="path" d="M 200 0 V 500" />
-    <path class="path" d="M 175 0 V 500" />
-    <path class="path" d="M 150 0 V 500" />
-    <path class="path" d="M 115 0 V 500" />
-    <path class="path" d="M 70 0 V 500" />
-    <path class="path" d="M 15 0 V 500" />
-    <path class="path" d="M 5 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 205 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 200 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 175 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 150 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 115 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 70 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 15 0 V 500" />
+    <path stroke="url(#gradient)" stroke-width="1" d="M 5 0 V 500" />
 </svg>
