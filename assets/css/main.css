@@ -3945,7 +3945,7 @@ h1 {
 	display: inline-block; /* Makes the h1 behave like an inline element but allows width and max-width properties */
 	max-width: 100%; /* Set an initial max-width */
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid orange; /* The typewriter cursor */
+	border-right: .15em solid #b74e91; /* The typewriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
 	animation: 
 	  typing 3.5s steps(40, end) forwards, /* The forwards value ensures the animation's end state remains */
