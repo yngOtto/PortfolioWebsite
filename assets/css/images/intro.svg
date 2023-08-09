@@ -18,7 +18,7 @@
             stroke-dasharray: 1000;
             stroke-dashoffset: 1000;
             animation: draw 3s forwards infinite;
-            filter: url(#blurMe);
+            
         }
 
         @keyframes draw {
