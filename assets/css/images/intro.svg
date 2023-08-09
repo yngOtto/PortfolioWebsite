@@ -17,7 +17,7 @@
             fill: none;
             stroke-dasharray: 20 10; 
             stroke-dashoffset: 1100; 
-            animation: draw 7s infinite;
+            animation: draw 20s infinite;
             
         }
 
