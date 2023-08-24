@@ -3994,6 +3994,15 @@ body.light-mode #portfolio {
 		color: #000000; 
 		}
 
+	body.light-mode .sidebar-class {
+		background-color: #ffffff; 
+		}
+		
+	body.light-mode #footer {
+		background-color: #ffffff; 
+		color: #000000;
+		}
+		
 	
 
 /* typing Animation */
