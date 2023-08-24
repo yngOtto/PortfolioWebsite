@@ -3952,4 +3952,11 @@ h1 {
 	  blink-caret 1.25s step-end infinite;
   }
   
+
+  body.light-mode {
+	background-color: #ffffff; /* White background */
+	color: #000000; /* Black text */
+	/* Additional light mode styles as needed */
+  }
+  
 		  
