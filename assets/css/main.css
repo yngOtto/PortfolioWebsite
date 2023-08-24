@@ -3946,7 +3946,7 @@ h1 {
 		}
 
 body.light-mode #intro {
-	background-image: url("images/lightintro.svg"); /* Replace with the light mode version of the SVG */
+	background-image: url("images/lightintro.svg"); 
 	}
 	
 	body.light-mode .path {
