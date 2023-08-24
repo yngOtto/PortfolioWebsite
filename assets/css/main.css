@@ -3949,24 +3949,50 @@ body.light-mode #intro {
 	background-image: url("images/lightintro.svg"); 
 	}
 
-body.light-mode {
+body.light-mode #portfolio {
 	background-color: #ffffff; 
 	color: #000000; 
 	}
 	  
-	
-body.light-mode .path {
-	stroke: #000000; 
+	body.light-mode #contact,
+	body.light-mode #contact input,
+	body.light-mode #contact textarea,
+	body.light-mode #contact select,
+	body.light-mode #contact .actions { 
+		background-color: #ffffff;
+		color: #000000; 
+		}
+
+	body.light-mode #contact,
+	body.light-mode #contact h2,
+	body.light-mode #contact p,
+	body.light-mode #contact label,
+	body.light-mode #contact a {
+		color: #000000; /* Black color */
 	}
-	
-	body.light-mode p,
-	body.light-mode h2,
-	body.light-mode h3,
-	body.light-mode h4,
-	body.light-mode h5,
-	body.light-mode h6 {
-	color: #000000; 
+
+	body.light-mode #contact input[type="text"],
+	body.light-mode #contact input[type="email"],
+	body.light-mode #contact textarea {
+		border: 1px solid #000000; /* Black border */
 	}
+		
+	body.light-mode #contact a {
+		color: #000000; 
+		}
+	
+	body.light-mode .path {
+		stroke: #000000; 
+		}
+		
+		body.light-mode p,
+		body.light-mode h2,
+		body.light-mode h3,
+		body.light-mode h4,
+		body.light-mode h5,
+		body.light-mode h6 {
+		color: #000000; 
+		}
 
 	
 
