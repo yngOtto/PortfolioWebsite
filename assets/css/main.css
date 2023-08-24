@@ -3950,7 +3950,7 @@ body.light-mode #intro {
 	}
 	
 	body.light-mode .path {
-	stroke: #000000; /* Adjust the stroke color for light mode, if needed */
+	stroke: #000000; 
 	}
 	
 	
