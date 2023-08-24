@@ -3994,8 +3994,9 @@ body.light-mode #portfolio {
 		color: #000000; 
 		}
 
-	body.light-mode .sidebar-class {
+	body.light-mode #sidebar {
 		background-color: #ffffff; 
+		color: #000000;
 		}
 		
 	body.light-mode #footer {
