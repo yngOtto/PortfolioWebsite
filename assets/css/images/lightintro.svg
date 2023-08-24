@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="500px" viewBox="0 0 1000 500" zoomAndPan="disable" preserveAspectRatio="none">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#5e42a6; stop-opacity:0.3"/>
+            <stop offset="51%" style="stop-color:#b74e91; stop-opacity:0.3"/>
+            <stop offset="100%" style="stop-color:#5e42a6; stop-opacity:0.3"/>
+            <animate attributeName="gradientTransform" type="translate" from="0" to="1" begin="0s" dur="5s" repeatCount="indefinite" />
+        </linearGradient>
+        <filter id="blurMe">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+        </filter>
+    </defs>
+    <rect x="0" y="0" width="1000" height="500" fill="#ffffff"/> <!-- White background -->
+    <style type="text/css"><![CDATA[
+        .path {
+            stroke: url(#gradient);
+            stroke-width: 1px;
+            fill: none;
+            stroke-dasharray: 20 10; 
+            stroke-dashoffset: 1100; 
+            animation: draw 20s infinite;
+        }
+
+        @keyframes draw {
+            0%, 100% {
+                stroke-dashoffset: 1100;
+            }
+            50% {
+                stroke-dashoffset: -100;
+            }
+        }
+    ]]></style>
+    <path class="path" d="M 2050 0 C 1950 75, 800 375, 1050 500" />
+    <path class="path" d="M 2000 0 C 1900 125, 750 375, 1000 500" />
+    <path class="path" d="M 1750 0 C 1625 125, 875 375, 750 500" />
+    <path class="path" d="M 1500 0 C 1375 125, 625 375, 500 500" />
+    <path class="path" d="M 1150 0 C 1025 125, 275 375, 150 500" />
+    <path class="path" d="M 700 0 C 575 125, -175 375, -300 500" />
+    <path class="path" d="M 150 0 C 25 125, -725 375, -850 500" />
+    <path class="path" d="M 50 0 C 0 125, -725 375, -850 500" />
+</svg>

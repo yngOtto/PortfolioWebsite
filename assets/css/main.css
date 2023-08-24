@@ -1835,6 +1835,20 @@ h1 {
 
 /* Button */
 
+	/* CSS file */
+
+	#toggle-dark-mode {
+		border: none !important;
+	}
+
+	#toggle-dark-mode:hover:after {
+		opacity: 0 !important;
+		-moz-transform: scale(0) !important;
+		-webkit-transform: scale(0) !important;
+		-ms-transform: scale(0) !important;
+		transform: scale(0) !important;
+	}
+	
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -1850,9 +1864,9 @@ h1 {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: #b74e91 !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #b74e91 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -3925,6 +3939,27 @@ h1 {
 
 		}
 
+body.light-mode #intro {
+	background-image: url("images/lightintro.svg"); /* Replace with the light mode version of the SVG */
+	}
+	
+	body.light-mode .path {
+	stroke: #000000; /* Adjust the stroke color for light mode, if needed */
+	}
+	
+	
+	/* Override other specific elements as needed for light mode */
+	body.light-mode p,
+	body.light-mode h2,
+	body.light-mode h3,
+	body.light-mode h4,
+	body.light-mode h5,
+	body.light-mode h6 {
+	color: #000000; /* Black text for headings */
+	}
+
+		  
+
 /* Typing Animation */
 @keyframes typing {
 	from {
@@ -3953,10 +3988,6 @@ h1 {
   }
   
 
-  body.light-mode {
-	background-color: #ffffff; /* White background */
-	color: #000000; /* Black text */
-	/* Additional light mode styles as needed */
-  }
+ 
   
 		  
