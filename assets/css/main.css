@@ -3949,7 +3949,7 @@ body.light-mode #intro {
 	background-image: url("images/lightintro.svg"); 
 	}
 	
-	body.light-mode .path {
+body.light-mode .path {
 	stroke: #000000; 
 	}
 	
@@ -3962,7 +3962,7 @@ body.light-mode #intro {
 	color: #000000; 
 	}
 
-		  
+	
 
 /* typing Animation */
 @keyframes typing {
