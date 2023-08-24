@@ -3953,15 +3953,13 @@ body.light-mode #intro {
 	stroke: #000000; 
 	}
 	
-	
-	/* Override other specific elements as needed for light mode */
 	body.light-mode p,
 	body.light-mode h2,
 	body.light-mode h3,
 	body.light-mode h4,
 	body.light-mode h5,
 	body.light-mode h6 {
-	color: #000000; /* Black text for headings */
+	color: #000000; 
 	}
 
 		  
