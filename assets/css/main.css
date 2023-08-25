@@ -3968,13 +3968,13 @@ body.light-mode #portfolio {
 	body.light-mode #contact p,
 	body.light-mode #contact label,
 	body.light-mode #contact a {
-		color: #000000; /* Black color */
+		color: #000000; 
 	}
 
 	body.light-mode #contact input[type="text"],
 	body.light-mode #contact input[type="email"],
 	body.light-mode #contact textarea {
-		border: 1px solid #000000; /* Black border */
+		border: 1px solid #000000; 
 	}
 		
 	body.light-mode #contact a {
