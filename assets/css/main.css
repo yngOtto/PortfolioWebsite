@@ -3787,6 +3787,11 @@ h1 {
 			text-transform: uppercase;
 		}
 
+		body.light-mode #sidebar nav a {
+			color: #000000; /* Black text when in light mode */
+		}
+		
+
 			#sidebar nav a:before, #sidebar nav a:after {
 				border-radius: 0.2em;
 				bottom: 0;
