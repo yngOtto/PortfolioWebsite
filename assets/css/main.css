@@ -3823,7 +3823,7 @@ h1 {
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #b74e91 !important;
 			}
 
 				#sidebar nav a.active:after {
