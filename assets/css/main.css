@@ -251,6 +251,14 @@ h1 {
 		font-size: 0.6em;
 	}
 
+	.gradient-text {
+		background: linear-gradient(to right, #5e42a6, #b74e91);
+		-webkit-background-clip: text;
+		color: transparent;
+		display: inline;
+	  }
+	  
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
